@@ -108,6 +108,11 @@ input {
     
 }
 
+button:hover {
+  background: silver;
+  transition: all 0.5s ease-in-out;
+  color: rgb(184, 155, 111);
+}
 
 button {
   display: inline-block;
