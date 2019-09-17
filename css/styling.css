@@ -3,7 +3,7 @@ body{
     /*font-family: 'Roboto Condensed', sans-serif;*/
     /*font-family: 'Source Sans Pro', sans-serif;*/
     background-color:#E0E0E0;
-    background:url('../images/main.jpg');
+    background:url('../images/body.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,11 +38,10 @@ p{
 }
 
 
-#inn{
-    animation:blinkingText 0.8s;
+#inn {
+    animation: blinkingText 0.8s;
     animation-iteration-count: 5;
-    margin-left: 45%;
-    
+    margin-left: 29%;
 }
 
 #rad{
@@ -64,17 +63,16 @@ p{
 }
 
 #form{
-    margin-top: 5%;
-    margin-left:32%;
-    margin-right:0%;
+    margin-top: 25%;
     border: 0.02rem;
-    float:left;
     color:black;
     font-size: 1.5rem;
     font-weight: bold;
-    
-    
+}
 
+form {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 input {
@@ -191,4 +189,20 @@ button {
     font-weight: bold;
     animation:blinkingText 0.8s;
     animation-iteration-count: 5;
+}
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  height: 328px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  background-color:#E0E0E0;
+  background:url('../images/main.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -12,13 +12,13 @@ session_start();
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-<h1>Book your dream Hotel</h1>
-<div class="price">
-<p id="inn">Holiday Inn: R 200</p>
-<p id="rad">Radison: R 100</p>
-<p id="city">City Lodge: R 400</p>
-<p id="town">Town Lodge: R 150</p>
+
+<div class="header">
+  <h1>Header</h1>
+  <p>My supercool header</p>
 </div>
+
+<h1>Book your dream Hotel</h1>
 
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
@@ -38,9 +38,17 @@ session_start();
 <label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
 <button class="submit" name="submit" type="submit">Submit</button>
 
-
 </form>
+<section>
+<div class="price">
+<p id="inn"><img src="images/hotel4.jpg" alt="Girl in a jacket" width="150" height="150">
+  <img src="images/hotel3.jpg" alt="Girl in a jacket" width="150" height="150">
+  <img src="images/hotel1.jpg" alt="Girl in a jacket" width="150" height="150">
+  <img src="images/hotel2.jpg" alt="Girl in a jacket" width="150" height="150"></p>
 </div>
+</section>
+</div>
+
 
 
 <?php
