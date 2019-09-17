@@ -17,7 +17,7 @@ body{
 h1 {
     margin-top: 14%;
     animation: blinkingText 2.3s;
-    animation-iteration-count: 15;
+    animation-iteration-count: 4;
     font-family: serif;
     font-size: 60px;
     color: rgba(329, 240, 138, 85.938);
@@ -82,8 +82,29 @@ input {
     margin: 4px 0;
     box-sizing: border-box;
     font-size: 1rem;
-  }
-
+    display: inline-block;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.800rem;
+    letter-spacing: 0.3em;
+    color: rgba(330, 300, 55, 0.938);
+    border-radius: 50vh;
+    padding: 24px 49px 16px;
+    transition: all 0.7s ease-out;
+    background: linear-gradient(270deg, rgba(150, 118, 38, 0.815), rgba(196, 155, 86, 0.8), rgba(177, 132, 80, 0.349), rgba(160, 113, 68, 0.384));
+    background-position: 1% 50%;
+    background-size: 101% 24%;
+    text-decoration: none;
+    margin: 2.495rem;
+    border: none;
+    border: 2px solid rgba(281, 181, 37, 0.664);
+    -webkit-border-radius: 50vh;
+    -moz-border-radius: 50vh;
+    -ms-border-radius: 50vh;
+    -o-border-radius: 50vh;
+}
 .submit{
     background:grey;
     width: 30%;
