@@ -15,12 +15,13 @@ body{
 
 
 h1 {
-    animation: blinkingText 0.0s;
-    animation-iteration-count: 0;
+    margin-top: 14%;
+    animation: blinkingText 2.3s;
+    animation-iteration-count: 15;
     font-family: serif;
     font-size: 60px;
     color: rgba(329, 240, 138, 85.938);
-    margin-left: 29%;
+    margin-left: -15%;
 }
 @keyframes blinkingText{
     0%{     color: #000;    }

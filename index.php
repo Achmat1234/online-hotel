@@ -13,12 +13,11 @@ session_start();
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 
+
 <div class="header">
-  <h1>Header</h1>
+  <h1>Book your dream Hotel</h1>
   <p>My supercool header</p>
 </div>
-
-<h1>Book your dream Hotel</h1>
 
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
