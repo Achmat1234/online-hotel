@@ -3,7 +3,10 @@ body{
     /*font-family: 'Roboto Condensed', sans-serif;*/
     /*font-family: 'Source Sans Pro', sans-serif;*/
     background-color:#E0E0E0;
-    background:url('../images/hotel1.JPEG');
+    background:url('../images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-size: 1rem;
     
 }
@@ -11,11 +14,13 @@ body{
 
 
 
-h1{
-    animation:blinkingText 0.8s;
-    animation-iteration-count: 5;
-    margin-left: 35%;
-    
+h1 {
+    animation: blinkingText 0.0s;
+    animation-iteration-count: 0;
+    font-family: serif;
+    font-size: 60px;
+    color: rgba(311, 184, 115, 168.938);
+    margin-left: 28%;
 }
 @keyframes blinkingText{
     0%{     color: #000;    }
@@ -34,7 +39,7 @@ p{
 
 
 #inn{
-    animation:blinkingText 0.8s;
+    animation:blinkingText 0.15s;
     animation-iteration-count: 5;
     margin-left: 45%;
     
@@ -89,22 +94,55 @@ input {
 
 
 .duplicate{
-    border-style: solid;
-   background:rgb(195, 188, 214);
-   margin-top: 2%;
-    margin-left:0%;
-    margin-right:10%;
-    float:right;
+    display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.800rem;
+  letter-spacing: 0.3em;
+  color: rgba(330, 300, 55, 0.938);
+  border-radius: 50vh;
+  padding: 0px 85px 0px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(150, 118, 38, 0.815), rgba(196, 155, 86, 0.8), rgba(177, 132, 80, 0.349), rgba(160, 113, 68, 0.384));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 3.625rem;
+  border: none;
+  border: 1px solid rgba(228, 173, 34, 0.664);
+  -webkit-border-radius: 50vh;
+  -moz-border-radius: 50vh;
+  -ms-border-radius: 50vh;
+  -o-border-radius: 50vh;
+   
     
 }
 
 .return{
-    border-style: solid;
-   background:aquamarine;
-   margin-top: 5%;
-    margin-left:0%;
-    margin-right:15%;
-    float:right;
+    display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.800rem;
+  letter-spacing: 0.3em;
+  color: rgba(330, 300, 55, 0.938);
+  border-radius: 50vh;
+  padding: 0px 85px 0px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(150, 118, 38, 0.815), rgba(196, 155, 86, 0.8), rgba(177, 132, 80, 0.349), rgba(160, 113, 68, 0.384));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 3.625rem;
+  border: none;
+  border: 1px solid rgba(228, 173, 34, 0.664);
+  -webkit-border-radius: 50vh;
+  -moz-border-radius: 50vh;
+  -ms-border-radius: 50vh;
+  -o-border-radius: 50vh;
     
 }
 
