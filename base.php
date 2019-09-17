@@ -11,11 +11,6 @@
   define ("DB_PASSWORD","");
   define ("DB_NAME","hotels");
 
-  
-// Define URL
-define("ROOT_PATH", "http://localhost/royalhotel-master/");
-define("ROOT_URL", "http://localhost/royalhotel-master/");
-
   //$servername="localost";
   //$username="root";
   //$password="";

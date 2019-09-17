@@ -10,6 +10,7 @@ body{
 
 
 
+
 h1{
     animation:blinkingText 0.8s;
     animation-iteration-count: 5;
@@ -108,13 +109,31 @@ input {
 }
 
 
-
-button{
-    background:grey;
-    width: 40%;
-    padding: 5px 15px;
-    margin-left:35%;
+button {
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.800rem;
+  letter-spacing: 0.3em;
+  color: rgba(230, 176, 40, 0.938);
+  border-radius: 50vh;
+  padding: 0px 50px 0px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(150, 118, 38, 0.815), rgba(196, 155, 86, 0.8), rgba(177, 132, 80, 0.349), rgba(160, 113, 68, 0.384));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 3.625rem;
+  border: none;
+  border: 1px solid rgba(228, 173, 34, 0.664);
+  -webkit-border-radius: 50vh;
+  -moz-border-radius: 50vh;
+  -ms-border-radius: 50vh;
+  -o-border-radius: 50vh;
 }
+
 
 
 #confirmed{

@@ -8,7 +8,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <body>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styling.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
@@ -151,6 +151,7 @@ Lastname: " . $row['surname'].
 "<br> End Date: " . $row['outdate'].
 "<br> Hotel Name: " . $row['hotelname'].
 "<br>" . $interval->format('%r%a days') . "<br> Total: R " . $value ."</div>";
+break;
     } 
 }
 
