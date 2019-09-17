@@ -19,8 +19,8 @@ h1 {
     animation-iteration-count: 0;
     font-family: serif;
     font-size: 60px;
-    color: rgba(311, 184, 115, 168.938);
-    margin-left: 28%;
+    color: rgba(329, 240, 138, 85.938);
+    margin-left: 29%;
 }
 @keyframes blinkingText{
     0%{     color: #000;    }
@@ -39,7 +39,7 @@ p{
 
 
 #inn{
-    animation:blinkingText 0.15s;
+    animation:blinkingText 0.8s;
     animation-iteration-count: 5;
     margin-left: 45%;
     
