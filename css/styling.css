@@ -66,7 +66,8 @@ p{
 #form{
     margin-top: 25%;
     border: 0.02rem;
-    color:black;
+    color: aliceblue;;
+    font-family: monospace;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -87,17 +88,17 @@ input {
     text-transform: uppercase;
     font-weight: 500;
     font-style: normal;
-    font-size: 0.800rem;
+    font-size: 0.8rem;
     letter-spacing: 0.3em;
-    color: rgba(330, 300, 55, 0.938);
+    color: rgba(30, 096, 51, 225.938);
     border-radius: 50vh;
-    padding: 24px 49px 16px;
+    padding: 14px 69px 10px;
     transition: all 0.7s ease-out;
-    background: linear-gradient(270deg, rgba(150, 118, 38, 0.815), rgba(196, 155, 86, 0.8), rgba(177, 132, 80, 0.349), rgba(160, 113, 68, 0.384));
+    background: linear-gradient(819deg, rgba(341, 395, 330, 0.845), rgba(222, 229, 499, 0.8), rgba(330, 406, 330, 163.349), rgba(439, 113, 68, 0.384));
     background-position: 1% 50%;
     background-size: 101% 24%;
     text-decoration: none;
-    margin: 2.495rem;
+    margin: 0.795rem;
     border: none;
     border: 2px solid rgba(281, 181, 37, 0.664);
     -webkit-border-radius: 50vh;
@@ -123,7 +124,7 @@ input {
   letter-spacing: 0.3em;
   color: rgba(330, 300, 55, 0.938);
   border-radius: 50vh;
-  padding: 0px 85px 0px;
+  padding: 19px 170px 17px;
   transition: all 0.7s ease-out;
   background: linear-gradient(270deg, rgba(150, 118, 38, 0.815), rgba(196, 155, 86, 0.8), rgba(177, 132, 80, 0.349), rgba(160, 113, 68, 0.384));
   background-position: 1% 50%;

@@ -6,19 +6,29 @@ session_start();
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+                                    <!-- STARTING OF WITH TILE -->
+<title>Achmats Hotel Booking Form <img src="images/title.jpg" alt="title-image" width="150" height="150"></title>
+                                        <!-- ENDING OF TITLE -->
+    <link rel="stylesheet" href="css/styling.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<!--=================================STARTING HTML CODE===================================-->
 <body>
-<link rel="stylesheet" href="css/styling.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-
-
+<!-- banner image and heading -->
 <div class="header">
   <h1>Book your dream Hotel</h1>
   <p>My supercool header</p>
 </div>
-
+<!-- ending of banner image and heading -->
+<!--=====================================================================================================-->
+<!-- starting of form -->
 <div id='form'>
 <form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
@@ -38,18 +48,21 @@ session_start();
 <button class="submit" name="submit" type="submit">Submit</button>
 
 </form>
+<!-- ending of form -->
+<!--=======================================================================================================-->
+<!-- starting with the section that contains thumbnail images and used price only as a class -->
 <section>
 <div class="price">
-<p id="inn"><img src="images/hotel4.jpg" alt="Girl in a jacket" width="150" height="150">
-  <img src="images/hotel3.jpg" alt="Girl in a jacket" width="150" height="150">
-  <img src="images/hotel1.jpg" alt="Girl in a jacket" width="150" height="150">
-  <img src="images/hotel2.jpg" alt="Girl in a jacket" width="150" height="150"></p>
+<p id="inn"><img src="images/hotel4.jpg" alt="image1" width="150" height="150">
+  <img src="images/hotel3.jpg" alt="image2" width="150" height="150">
+  <img src="images/hotel1.jpg" alt="image3" width="150" height="150">
+  <img src="images/hotel2.jpg" alt="image4" width="150" height="150"></p>
+</div>
 </div>
 </section>
-</div>
-
-
-
+<!-- ending of section -->
+<!--==============================================ENDING HTML CODE============================================-->
+<!-- starting with php to create connection to database-->
 <?php
 require_once "connect.php";
 echo $conn->error;
@@ -83,7 +96,7 @@ if (isset($_GET['error']) && $_GET['error'] == 'timestamp') {
 //echo '<br>'. $_POST['firstname'] .'<br>'. $_POST['lastname'].'<br>'.$_POST['hotelname'].'<br>'.$_POST['indate'].'<br>'. $_POST['outdate'];
 
 
-
+// user guide within the input form 
 
 if (isset($_POST['submit'])) {
    $_SESSION['firstname']= $_POST['firstname'];
@@ -207,6 +220,7 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 
 
 ?>
+<!--==========================================ENDING OF PHP CODE==============================================-->
 
 
 

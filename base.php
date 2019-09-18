@@ -2,7 +2,7 @@
 <html>
 <body>
 
-
+<!--========================THIS IS THE DATABASE OF THE ENTIRE PROJECT============================-->
 
 <?php
 
@@ -31,6 +31,7 @@
 
 ?>
 
+<!--===================THANK YOU FOR VIEWING MY PROJECT I DO KINDLY HOPE THAT YOU ARE IMPRESSED====================-->
 
 </form>
 </body>
