@@ -11,7 +11,6 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
                                     <!-- STARTING OF WITH TILE -->
 <title>Achmats Hotel Booking Form <img src="images/title.jpg" alt="title-image" width="150" height="150"></title>
                                         <!-- ENDING OF TITLE -->
@@ -19,8 +18,11 @@ session_start();
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
+
 <!--=================================STARTING HTML CODE===================================-->
+
 <body>
+
 <!-- banner image and heading -->
 <div class="header">
   <h1>Book your dream Hotel</h1>
@@ -223,8 +225,11 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 <!--==========================================ENDING OF PHP CODE==============================================-->
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="animated-sticky-header.js"></script>
 
 
 </body>
 </html>
+
