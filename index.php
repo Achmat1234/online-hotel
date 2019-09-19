@@ -17,9 +17,10 @@ session_start();
     <link rel="stylesheet" href="css/styling.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-</head>
+
 
 <!--=================================STARTING HTML CODE===================================-->
+
 
 <body>
 
@@ -233,3 +234,5 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 </body>
 </html>
 
+<!-- ? is most of the time called turnery method
+      and : is used as a if statement. -->
