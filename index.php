@@ -17,10 +17,9 @@ session_start();
     <link rel="stylesheet" href="css/styling.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+</head>
 
 <!--=================================STARTING HTML CODE===================================-->
-
 
 <body>
 
@@ -95,10 +94,6 @@ if (isset($_GET['error']) && $_GET['error'] == 'timestamp') {
       <?php
    }
 
-
-//echo '<br>'. $_POST['firstname'] .'<br>'. $_POST['lastname'].'<br>'.$_POST['hotelname'].'<br>'.$_POST['indate'].'<br>'. $_POST['outdate'];
-
-
 // user guide within the input form 
 
 if (isset($_POST['submit'])) {
@@ -108,19 +103,6 @@ if (isset($_POST['submit'])) {
    $_SESSION['indate']= $_POST['indate'];
    $_SESSION['outdate']= $_POST['outdate'];
 
-
-
-//echo $_SESSION['firstname'] //."<br>".  $_SESSION['lastname'] ."<br>".  $_SESSION['hotelname'] ."<br>". $_SESSION['indate'] ."<br>". $_SESSION['outdate']."<br>";
-
-
-//display booking info to user
-/*
-echo "<br> Firstname:".  $_SESSION['firstname']."<br>".
-"surname:".  $_SESSION['surname']."<br>".
-"Start Date:". $_SESSION['indate']."<br>".
-"End Date:". $_SESSION['outdate']."<br>".
-"Hotel Name:". $_SESSION['hotelname']."<br>";
-*/
 
 //calculate duration of user's stay at hotel
 $datetime1 = new DateTime($_SESSION['indate']);
@@ -188,9 +170,6 @@ echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
 
 echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'>
 <button name='confirm' type='submit'> Confirm </button> </form>".'</div>';
-
-//echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'><input type='submit' name='confirm'>.'Confirm'.</form>";
-
 }
 
 if(isset($_POST['confirm'])){
@@ -209,19 +188,6 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 
 }
 
-// if($_POST['confirm']){
-//    $firstname =$_SESSION['firstname'];
-//    $surname =$_SESSION['surname'];
-//    $hotelname =$_SESSION['hotelname'];
-//    $indate=$_SESSION['indate'];
-//    $outdate=$_SESSION['outdate'];
-//      mysqli_query($conn, "INSERT INTO bookings (firstname, surname, hotelname,indate,outdate)
-//      VALUES ('$firstname ', '$surname','$hotelname','$indate','$outdate')");
-// }
-
-
-
-
 ?>
 <!--==========================================ENDING OF PHP CODE==============================================-->
 
@@ -234,5 +200,3 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 </body>
 </html>
 
-<!-- ? is most of the time called turnery method
-      and : is used as a if statement. -->
